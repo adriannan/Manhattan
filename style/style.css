@@ -4,6 +4,11 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-image: url("../image/kol.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 20px;
 }
 article, hgroup {
 	display: flex;
@@ -11,6 +16,7 @@ article, hgroup {
 	justify-content: center;
 	align-items: center;
 	min-width: 600px;
+	padding-bottom: 20px;
 }
 section{
 	width: 30%;
