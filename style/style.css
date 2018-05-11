@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 body{
 	margin: 0;
@@ -8,7 +9,7 @@ body{
 	background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 0 20px;
+    background-position: -0.5vw 0vw;
 }
 article, hgroup {
 	display: flex;
@@ -43,9 +44,17 @@ hgroup h1, h3{
 }
 
 @media screen and (max-width: 600px) {
-article, section{
-	width: 100%;
-	margin: 0 auto;
-	min-width: auto;
-}
+	article, section{
+		width: 100%;
+		margin: 0 auto;
+		min-width: auto;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+		background-image: url("../image/kol.png");
+		background-repeat: no-repeat;
+	    background-size: 100%;
+	    /*background-position: auto;*/
+	}
 }
