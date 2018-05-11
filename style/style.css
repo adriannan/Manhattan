@@ -10,6 +10,7 @@ article, hgroup {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	min-width: 600px;
 }
 section{
 	width: 30%;
@@ -20,7 +21,7 @@ section{
 	border-bottom: 1px solid grey;
 }
 hgroup{
-	padding: 30px; 
+	padding-top: 30px; 
 }
 hgroup h1{
 	font-size: 2.4em;
@@ -28,4 +29,17 @@ hgroup h1{
 }
 hgroup h1, h3{
 	margin: 0;
+}
+#cover{
+	width: 20%;
+	box-shadow: 0.8px 0.8px 3px 1px grey;
+
+}
+
+@media screen and (max-width: 600px) {
+article, section{
+	width: 100%;
+	margin: 0 auto;
+	min-width: auto;
+}
 }
